@@ -1,0 +1,50 @@
+{{ define "main" }}
+<main>
+  <section id="main">
+    <h1 id="title">{{ .Title }}</h1>
+    <div>
+      <article id="content">
+        {{ .Content }}
+      </article>
+    </div>
+  </section>
+  <aside id="meta">
+    <div>
+      <div>
+        <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
+        <h5 id="wordcount"> {{ .WordCount }} Words </h5>
+      </div>
+      {{ with .Params.topics }}
+      Topics
+      <ul id="topics">
+        {{ range . }}
+          <li><a href="{{ "topics" | absURL}}/{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      {{ with .Params.tags }}
+      Tags
+      <ul id="tags">
+        {{ range . }}
+        <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    <div class="flex two">
+      <div>
+      {{ with .PrevInSection }}
+      <a class="button previous" href="{{.Permalink}}">Previous</a>
+      {{.Title}}
+      {{ end }}
+      </div>
+      <div>
+      {{ with .NextInSection }}
+      <a class="button next" href="{{.Permalink}}">Next</a>
+      {{.Title}}
+      {{ end }}
+      </div>
+    </div>
+  </aside>
+</main>
+{{ end }}

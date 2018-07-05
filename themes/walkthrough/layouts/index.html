@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <header class="homepage-header">
+      <h1>{{.Title}}</h1>
+      {{ with .Params.subtitle }}
+      <span class="subtitle">{{.}}</span>
+      {{ end }}
+    </header>
+    <div class="homepage-content">
+      {{.Content}}
+    </div>
+    {{ $pages := .Site.RegularPages }}
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    
+    <div>
+      {{- range first 10 ( $pages.ByPublishDate.Reverse ) -}}
+        {{ .Render "summary"}}
+      {{ end }}
+    </div>
+  </main>
+{{ end }}

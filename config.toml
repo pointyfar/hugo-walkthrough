@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site That I Built Myself"
+
+theme = "walkthrough"
+
+[taxonomies]
+  category = "categories"
+  topic = "topics"
+  tag = "tags"
+  
+[params]
+  mainSections = ["post"]

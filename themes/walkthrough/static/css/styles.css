@@ -1,0 +1,10 @@
+main {
+  margin: 5rem 1rem;
+}
+section, aside {
+  padding: 2rem 5rem;
+}
+
+.card {
+  padding: .5rem;
+}
