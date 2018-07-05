@@ -29,7 +29,7 @@ And this is how things look:
 
 Not too bad, but there's still a lot more to Hugo!
 
-layouts_01 captures the state of the layouts at this point.
+If you got a copy of the code, `layouts_01` captures the state of the layouts at this point.
 
 ```
 ...
@@ -55,3 +55,5 @@ layouts_01 captures the state of the layouts at this point.
         │...
         └── theme.toml
 ```
+
+Onwards and upwards!

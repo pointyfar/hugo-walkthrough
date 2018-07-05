@@ -45,13 +45,13 @@ and of course add a reference to it in the `head`:
     <meta charset="utf-8">
     <title>{{.Site.Title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://unpkg.com/picnic">
+    <link rel="stylesheet" href="{{.Site.BaseURL}}css/picnic.min.css">
     <link rel="stylesheet" href="{{.Site.BaseURL}}css/styles.css">
     
   </head>
   <body>
 ```
-*I am using [picnic.css](https://picnicss.com/) from a CDN as a base style but feel free to use your preferred styles.*
+*I am using [picnic.css](https://picnicss.com/) as a base style but feel free to use your preferred styles.*
 
 {{% img rsc="images/012-no-styles.png" alt="Before" %}}
 
