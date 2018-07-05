@@ -9,12 +9,9 @@
     <div class="homepage-content">
       {{.Content}}
     </div>
-    {{ $pages := .Site.RegularPages }}
-    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-    
     <div>
-      {{- range first 10 ( $pages.ByPublishDate.Reverse ) -}}
-        {{ .Render "summary"}}
+      {{ range first 10 .Data.Pages }}
+          {{ .Render "summary"}}
       {{ end }}
     </div>
   </main>
