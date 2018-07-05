@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hugo: A Walkthrough"
+
+theme = "walkthrough"
+
+[taxonomies]
+  category = "categories"
+  topic = "topics"
+  tag = "tags"
+  
+[params]
+  mainSections = ["walkthrough"]
