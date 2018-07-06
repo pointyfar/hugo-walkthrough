@@ -36,7 +36,7 @@ Run `hugo new site mysite`
 
 Navigate to `mysite` and run `hugo server`
 
-[Details@Docs](https://gohugo.io/commands/hugo_server/)
+[Details@Docs](https://gohugo.io/commands/hugo_server/): What is `hugo server`?
 
 ```sh
 .
@@ -57,3 +57,7 @@ Open your browser and navigate to http://localhost:1313/ and you should see a Hu
 ... or not.
 
 We have a few things we need to put together before we get an actual website running.
+
+---
+
+Up next: Let's create a theme!

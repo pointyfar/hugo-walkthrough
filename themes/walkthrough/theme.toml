@@ -8,10 +8,10 @@ description = ""
 homepage = "http://example.com/"
 tags = []
 features = []
-min_version = "0.41"
+min_version = "0.42"
 
 [author]
-  name = ""
+  name = "Pointy"
   homepage = ""
 
 # If porting an existing theme

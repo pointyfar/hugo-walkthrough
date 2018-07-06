@@ -1,0 +1,8 @@
+/node_modules/ 
+
+# Hugo binary
+hugo*
+
+# Generated files at default location
+/public/
+

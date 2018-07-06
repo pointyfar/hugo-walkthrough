@@ -15,7 +15,7 @@ Let's go back to this snippet on the homepage.
 
 So far we only have three posts, so iterating over the `first 10` captures all three. But what if we have 20? 200? Wouldn't it be nice if there was a page that listed all our content?
 
-[Details@Docs](https://gohugo.io/templates/lists/)
+[Details@Docs](https://gohugo.io/templates/lists/): What are lists in Hugo?
 
 Let's open up `layouts/_default/list.html` and put some code in:
 
@@ -48,3 +48,7 @@ Easy Peasy.
 You may have noticed by now that some lines of HTML code across `index.html`, `single.html` and `list.html` are the same. Wouldn't it be nice if we could write those lines once and reuse them where we need them?
 
 We can in fact do exactly that!
+
+---
+
+Up next: We define a baseof template.

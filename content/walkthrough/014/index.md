@@ -6,7 +6,7 @@ draft: false
 
 Instead of putting all your assets into `static`, you could keep them together with the content they are related to. 
 
-[Details@Docs](https://gohugo.io/content-management/organization/#page-bundles)
+[Details@Docs](https://gohugo.io/content-management/organization/#page-bundles): What are page bundles?
 
 Let's create a Leaf Bundle
 
@@ -32,7 +32,7 @@ and put some images in there under `/images`
 
 > Page Resources – images, other pages, documents etc. – have page-relative URLs and their own metadata.
 
--- [Hugo Docs](https://gohugo.io/content-management/page-resources/)
+> -- [Hugo Docs](https://gohugo.io/content-management/page-resources/)
 
 We can reference the images from the markdown:
 
@@ -90,3 +90,6 @@ draft: false
 ```
 
 {{% img rsc="images/014-image-bundle.png" alt="Images in Page Bundles" %}}
+---
+
+Up next: Configuring Hugo

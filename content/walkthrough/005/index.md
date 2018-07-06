@@ -6,7 +6,7 @@ draft: false
 
 > The homepage template is the only required template for building a site and therefore useful when bootstrapping a new site and template. It is also the only required template if you are developing a single-page website.
 
--- [Hugo Docs](https://gohugo.io/templates/homepage/)
+> -- [Hugo Docs](https://gohugo.io/templates/homepage/)
 
 Let's create a `_index.md` file under `content` and use the example homepage template from the docs. 
 
@@ -117,13 +117,13 @@ Let's break this down.
 ### `range`
 > Iterates over a map, array, or slice.
 
--- [Hugo Docs](https://gohugo.io/functions/range/)
+> -- [Hugo Docs](https://gohugo.io/functions/range/)
 
 ### `.Render`
 
 > The view is an alternative layout and should be a file name that points to a template in one of the locations specified in the documentation for Content Views.
 
--- [Hugo Docs](https://gohugo.io/functions/render/#readout)
+> -- [Hugo Docs](https://gohugo.io/functions/render/#readout)
 
 This means that to use `{{ .Render "summary" }}` we need to have a file `layouts/_default/summary.html`.
 
@@ -199,3 +199,7 @@ The [Hugo Docs](https://gohugo.io/variables/page/) have a list of page variables
 Awesome!
 
 How do we see individual posts now, you ask?
+
+---
+
+Up next: We define a single page template

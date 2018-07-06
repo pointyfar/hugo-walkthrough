@@ -34,7 +34,7 @@ Yay!
 
 But that's just HTML, isn't it? Let's use some Hugo magic!
 
-[Details@Docs](https://gohugo.io/templates/introduction/)
+[Details@Docs](https://gohugo.io/templates/introduction/): What are Hugo templates?
 
 ```html
 <!-- layouts/index.html -->
@@ -75,3 +75,7 @@ title = "My New Hugo Site That I Built Myself"
 
 
 (You may need to restart `hugo server` when changing `config.toml`)
+
+---
+
+Up next: We write some content.

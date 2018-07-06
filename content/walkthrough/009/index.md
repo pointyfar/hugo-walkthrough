@@ -6,11 +6,11 @@ draft: false
 
 You may have noticed when we first generated a new theme that it came with a `baseof.html` page. 
 
-[Details@Docs](https://gohugo.io/templates/base/#define-the-base-template)
+[Details@Docs](https://gohugo.io/templates/base/#define-the-base-template): What is a baseof template?
 
 > As a default template, it is the shell from which all your pages will be rendered ...
 
--- [Hugo Docs](https://gohugo.io/templates/base/#define-the-base-template)
+> -- [Hugo Docs](https://gohugo.io/templates/base/#define-the-base-template)
 
 ```bash
 ...
@@ -114,3 +114,7 @@ Let's do it properly now:
 ```
 
 {{% img rsc="images/009-single-page-main.png" alt="Screenshot" %}}
+
+---
+
+Up next: We define partials.

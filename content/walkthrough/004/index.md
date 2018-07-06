@@ -6,7 +6,7 @@ draft: false
 
 Time to write some content! 
 
-[Details@Docs](https://gohugo.io/content-management/organization/)
+[Details@Docs](https://gohugo.io/content-management/organization/): Content organisation in Hugo
 
 ```
 hugo new post/my-first-post.md

@@ -7,4 +7,9 @@ section, aside {
 
 .card {
   padding: .5rem;
+  margin: .25rem;
+}
+
+figure > img {
+  width: 100%;
 }

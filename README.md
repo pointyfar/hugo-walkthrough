@@ -2,7 +2,7 @@
 
 Yes, another one.
 
-This tutorial series aims to walk you through the basics of how to make a website with Hugo. No fancy JavaScript, not a lot of CSS, just enough HTML to make things work. This is intended to complement the excellent [official Hugo documentation](https://gohugo.io/) (which you really should go read) which will frequently be referenced throughout the tutorial.
+While there really is no substitute to reading the documentation thoroughly (several times), this tutorial series aims to walk you through the basics of how to make a website ([this very website, in fact](https://phw.netlify.com/)) with Hugo. No fancy JavaScript, not a lot of CSS, just enough HTML to make things work. This is intended to complement the excellent [official Hugo documentation](https://gohugo.io/) (which you really should go read) which will frequently be referenced throughout the tutorial.
 
 ## Why write yet another Hugo tutorial?
 
@@ -15,6 +15,10 @@ Yes, there are plenty of other guides and tutorials out there, better written an
 * How to deploy your site
 * How to configure a different theme
 * Why your Hugo site isn't working
+
+## Disclaimer
+
+I am by no means an expert on Hugo and I do not intend to suggest that the way I do things is the only way that is correct. Code writing is as much science as art, and there are usually multiple ways of achieving the same thing.
 
 ## Acknowledgments
 

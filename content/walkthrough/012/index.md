@@ -8,7 +8,7 @@ Before we go any further, let's quickly add some styles to our page and remove t
 
 We can put assets such as `css`, `js`, `img` files into the `static` folder.
 
-[Details@Docs](https://gohugo.io/content-management/static-files/)
+[Details@Docs](https://gohugo.io/content-management/static-files/): What are static files?
 
 ```bash
 .
@@ -119,3 +119,7 @@ Let's add a navbar with our logo that shows in every page.
 ```
 
 {{% img rsc="images/012-navbar.png" alt="Navbar" %}}
+
+---
+
+Up next: We add images to content.

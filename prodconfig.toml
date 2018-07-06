@@ -11,3 +11,4 @@ theme = "walkthrough"
   
 [params]
   mainSections = ["walkthrough"]
+  deployed = true

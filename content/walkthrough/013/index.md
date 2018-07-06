@@ -1,5 +1,5 @@
 ---
-title: "Adding Photos"
+title: "Adding Images"
 date: 2018-07-05T13:59:09+10:00
 draft: false
 ---
@@ -48,3 +48,6 @@ These use Hugo's builtin shortcode:
 
 {{% img rsc="images/013-images.png" alt="Images" %}}
 
+---
+
+Up next: We make a page bundle with resources.

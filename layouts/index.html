@@ -1,0 +1,48 @@
+{{ define "main" }}
+  <main aria-role="main">
+    {{ if isset .Site.Params "deployed" }}
+        <header class="homepage-header">
+          <h1>{{index .Site.Data.indexmeta "title"}}</h1>
+          <span class="subtitle">
+            {{index .Site.Data.indexmeta "subtitle"}}
+          </span>
+        </header>
+        <div class="homepage-content">
+          {{index .Site.Data.indexmeta "content" | markdownify }}
+        </div>
+    {{ else }}
+        <header class="homepage-header">
+          <h1>{{.Title}}</h1>
+          {{ with .Params.subtitle }}
+          <span class="subtitle">{{.}}</span>
+          {{ end }}
+        </header>
+        <div class="homepage-content">
+          {{.Content}}
+        </div>
+    {{ end }}
+    
+    
+    {{ $pages := .Site.RegularPages }}
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    
+    <div class="flex two">
+      {{- range first 6 ( $pages.ByPublishDate.Reverse ) -}}
+      <div>
+        <div class="card">
+          <h4><a href="{{.Permalink}}">{{ .Title }}</a></h4>
+          <h6>{{ .WordCount }} words, {{ .ReadingTime }} min read</h6>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="card">
+      {{ $base := .Site.BaseURL }}
+      {{ with .Site.Params.mainSections }}
+        {{ range . }}
+          <a class="button" href="{{$base}}{{.}}">See All In {{ . | title }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </main>
+{{ end }}

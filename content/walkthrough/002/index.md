@@ -4,7 +4,7 @@ date: 2018-07-05T00:09:11+10:00
 draft: false
 ---
 
-It is certainly not necessary to use or write your own theme. For this tutorial, a file is referenced as being located under `layouts/` may be placed in either `themes/<THEME>/layouts/` if proceding as a theme, or `layouts/` if not. 
+It is certainly not necessary to use or write your own theme. If you choose not to use a theme, you will need to place the html template files under `layouts`. If creating a theme, place it under `themes/<THEME>/layouts/`.
 
 E.g. `layouts/404.html`
 
@@ -35,7 +35,7 @@ E.g. `layouts/404.html`
 
 > Hugo currently doesn’t ship with a “default” theme. This decision is intentional. We leave it up to you to decide which theme best suits your Hugo project.
 
--- [Hugo Docs](https://gohugo.io/themes/installing-and-using-themes/)
+> -- [Hugo Docs](https://gohugo.io/themes/installing-and-using-themes/)
 
 Let's make our own theme!
 
@@ -73,7 +73,7 @@ This will add a theme to the `themes` directory:
 
 ```
 
-Don't forget to update the `theme.toml` file as needed.
+Don't forget to update the `theme.toml` file with the correct information.
 
 Now we need to let Hugo know that we want to use this theme.
 
@@ -88,3 +88,7 @@ hugo server
 ```
 
 Still nothing?!
+
+---
+
+Up next: We define an index page

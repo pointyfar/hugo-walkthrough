@@ -4,11 +4,11 @@ date: 2018-07-05T00:55:31+10:00
 draft: false
 ---
 
-[Details@Docs](https://gohugo.io/content-management/taxonomies/)
+[Details@Docs](https://gohugo.io/content-management/taxonomies/): What are taxonomies?
 
 > Taxonomies are classifications of logical relationships between content.
 
--- [Hugo Docs](https://gohugo.io/content-management/taxonomies/#what-is-a-taxonomy)
+> -- [Hugo Docs](https://gohugo.io/content-management/taxonomies/#what-is-a-taxonomy)
 
 Hugo has `tags` and `categories` configured by default. Let us [configure Hugo](https://gohugo.io/content-management/taxonomies/#configuring-taxonomies) to recognise `topics` as well.
 
@@ -68,3 +68,6 @@ tags:
 
 Read up [here](https://gohugo.io/content-management/front-matter/) to find out more about frontmatter.
 
+---
+
+Up next: We define a list page template.

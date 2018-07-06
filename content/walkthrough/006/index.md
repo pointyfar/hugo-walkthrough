@@ -24,7 +24,7 @@ Can you guess what's going on here?
 
 Well, our `layouts/_default/single.html` is empty. This is what Hugo uses to render single pages.
 
-[Details@Docs](https://gohugo.io/templates/single-page-templates/)
+[Details@Docs](https://gohugo.io/templates/single-page-templates/): What are single templates?
 
 So let's put something in there!
 
@@ -137,3 +137,7 @@ Read up [here](https://gohugo.io/functions/format/) to find out more about Go/Hu
 We can include pre-defined as well as custom frontmatter in our posts. The above snippet references the custom frontmatter fields `topics` and `tags`, which are taxonomies.
 
 Read more about [frontmatter](https://gohugo.io/content-management/front-matter).
+
+---
+
+Up next: What are taxonomies?

@@ -6,7 +6,7 @@ draft: false
 
 Let's go one step further and split off the code in `baseof.html` into partials.
 
-[Details@Docs](https://gohugo.io/templates/partials/)
+[Details@Docs](https://gohugo.io/templates/partials/): What are partials?
 
 ```html
 <!-- layouts/_default/baseof.html -->
@@ -56,3 +56,7 @@ And we are left with our `baseof.html` looking like this:
 {{ partial "footer.html" . }}
 
 ```
+
+---
+
+Up next: We check our progress.

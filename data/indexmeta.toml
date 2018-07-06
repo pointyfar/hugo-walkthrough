@@ -1,0 +1,32 @@
+title = "A Hugo Walkthrough"
+subtitle = "Yes, another one."
+content = """
+<br><br><br>
+
+Welcome!
+
+While there really is no substitute to reading the documentation thoroughly (several times), 
+this tutorial series aims to walk you through the basics of how to make a website 
+([this very website, in fact](https://phw.netlify.com/)) with Hugo. No fancy 
+JavaScript, not a lot of CSS, just enough HTML to make things work. This is 
+intended to complement the excellent [official Hugo documentation](https://gohugo.io/)
+(which you really should go read) which will frequently be referenced throughout
+the tutorial.
+
+### Why write yet another Hugo tutorial?
+
+Yes, there are plenty of other guides and tutorials out there, better written 
+and by people smarter than myself. I have personally found though that most of 
+them are either too basic, simple `Hello World` examples, which don't go to 
+enough depth, or too complicated for a first-time Hugo adventurer.
+
+---
+
+
+The latest posts are below, or get started [here](/walkthrough/001/). You can 
+find the code in the repo [here](https://github.com/pointyfar/hugo-walkthrough).
+
+Happy Hugo-ing!
+
+--- 
+"""

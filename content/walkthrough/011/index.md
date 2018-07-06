@@ -57,3 +57,7 @@ If you got a copy of the code, `layouts_01` captures the state of the layouts at
 ```
 
 Onwards and upwards!
+
+---
+
+Up next: We do some prettifying.
