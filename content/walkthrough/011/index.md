@@ -8,16 +8,16 @@ Congratulations! You now got yourself a (very minimal and bare) Hugo site!
 
 A recap of what we've done:
 
-1. [Created a new Hugo site](/walk/001/)
-1. [Created a new Hugo theme](/walk/002/)
-1. [Wrote index.html](/walk/003/)
-1. [Wrote some content](/walk/004/)
-1. [Defined homepage template](/walk/005/)
-1. [Defined a single page template](/walk/006/)
-1. [Defined a custom taxonomy](/walk/007/)
-1. [Defined a list page](/walk/008/)
-1. [Defined a `baseof` template](/walk/009/)
-1. [Defined partials](/walk/010/)
+1. [Created a new Hugo site](./../001/)
+1. [Created a new Hugo theme](./../002/)
+1. [Wrote index.html](./../003/)
+1. [Wrote some content](./../004/)
+1. [Defined homepage template](./../005/)
+1. [Defined a single page template](./../006/)
+1. [Defined a custom taxonomy](./../007/)
+1. [Defined a list page](./../008/)
+1. [Defined a `baseof` template](./../009/)
+1. [Defined partials](./../010/)
 
 And this is how things look:
 

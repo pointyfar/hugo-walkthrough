@@ -38,7 +38,7 @@ section {
 and of course add a reference to it in the `head`:
 
 ```html 
-<!-- themes/<THEME>/layouts/partials/header.html -->
+<!-- layouts/partials/header.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>

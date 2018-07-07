@@ -92,4 +92,4 @@ draft: false
 {{% img rsc="images/014-image-bundle.png" alt="Images in Page Bundles" %}}
 ---
 
-Up next: Configuring Hugo
+Up next: We define a 404 page

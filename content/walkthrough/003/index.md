@@ -4,16 +4,16 @@ date: 2018-07-05T00:11:15+10:00
 draft: false
 ---
 
-Opening up `themes/walkthrough/index.html`, we see...
+Opening up `layouts/index.html`, we see...
 
 Nothing. 
 
 That explains it!
 
-Let's go add some content to it:
+Let's go add some code to it:
 
 ```html
-<!-- themes/walkthrough/index.html -->
+<!-- layouts/index.html -->
 <!DOCTYPE html>
 
 <html lang="en">

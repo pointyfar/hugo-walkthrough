@@ -1,32 +1,10 @@
 ---
-title: "Getting Started"
-date: 2018-07-04T23:49:56+10:00
+title: "Configuring Hugo"
+date: 2018-07-04T00:09:11+10:00
 draft: false
 ---
 
-So you want a [static site](https://gohugo.io/about/benefits/) and have [decided to use Hugo](https://www.linode.com/docs/websites/static-sites/how-to-choose-static-site-generator/). What next?
-
-We make a Hugo site!
-
-# Making a Hugo Site: A Walkthrough 
-
-This tutorial series aims to walk you through the basics of how to make a website with Hugo. No fancy JavaScript, not a lot of CSS, just enough HTML to make things work. This is intended to be a complement to the excellent [official Hugo documentation](https://gohugo.io/) (which you really should go read) which will frequently be referenced throughout the tutorial.
-
-## Why write yet another Hugo tutorial?
-
-Yes, there are plenty of other guides and tutorials out there, better written and by people smarter than myself. I have personally found though that most of them are either too basic, simple `Hello World` examples, which don't go to enough depth, or too complicated for a first-time Hugo adventurer.
-
-## What this walkthrough DOES NOT cover
-
-* How to write HTML/CSS/JS code
-* How to `git`
-* How to deploy your site
-* How to configure a different theme
-* Why your Hugo site isn't working
-
----
-
-Enough of the chatter, show me the code!
+[Details@Docs](https://gohugo.io/getting-started/quick-start/): Hugo's Quick Start guide
 
 ## Install Hugo 
 
@@ -60,4 +38,24 @@ We have a few things we need to put together before we get an actual website run
 
 ---
 
-Up next: Let's create a theme!
+Let's take a look at the `config.toml` file that was generated for us:
+
+```toml
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+```
+
+This `config` file is where we configure our Hugo site. [The docs](https://gohugo.io/getting-started/configuration/#all-configuration-settings) has a list of all Hugo-defined variables that are available.
+
+When we are ready to publish our Hugo site, we need to make sure that `baseURL` is filled with the correct domain.
+
+We can also define our own custom variables that we can access in our templates. Read more about that [here](https://gohugo.io/variables/site/#the-site-params-variable).
+
+
+There are 230+ themes available on the [Hugo Themes](https://themes.gohugo.io) site. We could of course choose to use one of those, but for this tutorial we are making our own.
+
+---
+
+Up next: We create our own theme

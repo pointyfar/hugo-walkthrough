@@ -4,7 +4,7 @@ date: 2018-07-05T00:09:11+10:00
 draft: false
 ---
 
-It is certainly not necessary to use or write your own theme. If you choose not to use a theme, you will need to place the html template files under `layouts`. If creating a theme, place it under `themes/<THEME>/layouts/`.
+It is certainly not necessary to use or write your own theme. For this tutorial, if you choose not to use a theme, you will need to place the html template files under `layouts`. If creating a theme, place it under `themes/<THEME>/layouts/`.
 
 E.g. `layouts/404.html`
 

@@ -1,12 +1,18 @@
 ---
-title: "Configuring Hugo"
+title: "Define 404 page"
 date: 2018-07-05T22:33:18+10:00
 draft: false
 ---
 
-We should have a Hugo website running locally by this point. If you intend to publish your Hugo site however, a few things need to be configured.
+This exercise is left to the reader. You've come this far, it shouldn't be a challenge at all!
 
-[Details@Docs](https://gohugo.io/getting-started/configuration/)
+```html 
+<!-- layouts/404.html -->
+
+Go crazy!
+
+```
 
 
+{{% img rsc="images/015-404.png" alt="404" %}}
 

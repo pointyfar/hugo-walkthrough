@@ -4,7 +4,7 @@ date: 2018-07-05T00:53:13+10:00
 draft: false
 ---
 
-Let's modify the code above to include a link to the actual pages
+Let's modify the code before to include a link to the actual pages
 
 ```html 
 <!-- layouts/_default/summary.html -->
@@ -136,7 +136,6 @@ Read up [here](https://gohugo.io/functions/format/) to find out more about Go/Hu
 
 We can include pre-defined as well as custom frontmatter in our posts. The above snippet references the custom frontmatter fields `topics` and `tags`, which are taxonomies.
 
-Read more about [frontmatter](https://gohugo.io/content-management/front-matter).
 
 ---
 

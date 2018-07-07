@@ -61,6 +61,8 @@ You can easily see here the relationships between the contents of the `content/_
 
 Change the text around and see it reflected immediately!
 
+---
+
 What's with that `with`, you ask?
 
 ```html 
@@ -68,9 +70,9 @@ What's with that `with`, you ask?
 <span class="subtitle">{{.}}</span>
 {{ end }}
 ```
-The [docs](https://gohugo.io/functions/with/) say this about `with`: 
+The [docs](https://gohugo.io/functions/with/) have this to say: 
 
->An alternative way of writing an if statement and then referencing the same value is to use with instead. with rebinds the context (.) within its scope and skips the block if the variable is absent or unset.
+>An alternative way of writing an `if` statement and then referencing the same value is to use `with` instead. `with` rebinds the context (`.`) within its scope and skips the block if the variable is absent or unset.
 
 So: 
 ```html
